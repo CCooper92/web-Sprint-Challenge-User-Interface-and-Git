@@ -125,7 +125,8 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box1 {
+
+.middle-content .boxes .box1,.box2,.box3,.box4,.box5,.box6,.box7,.box8,.box9,.box10{
     width: 12.5%;
     height: 100px;
     background: black;
@@ -136,107 +137,34 @@ p {
     justify-content: center;
     background-color:#379999;
 }
-.middle-content .boxes .box2 {
-    width: 12.5%;
-    height: 100px;
-    background: black;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.box2{
     background-color:#ffd701;
 }
-.middle-content .boxes .box3 {
-    width: 12.5%;
-    height: 100px;
-    background: black;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+
+.box3{
     background-color:#5f9ea0;
 }
-.middle-content .boxes .box4 {
-    width: 12.5%;
-    height: 100px;
-    background: black;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.box4{
     background-color: #ff7f50;
 }
-.middle-content .boxes .box5 {
-    width: 12.5%;
-    height: 100px;
-    background: black;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #dc143c
+.box5{
+    background-color: #dc143c;
 }
-.middle-content .boxes .box6 {
-    width: 12.5%;
-    height: 100px;
-    background: black;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.box6{
     background-color: #228b22;
 }
-.middle-content .boxes .box7 {
-    width: 12.5%;
-    height: 100px;
-    background: black;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.box7{
     background-color: #9932cc;
 }
-.middle-content .boxes .box8 {
-    width: 12.5%;
-    height: 100px;
-    background: black;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+
+.box8{
     background-color: #ff69b4;
 }
-.middle-content .boxes .box9 {
-    width: 12.5%;
-    height: 100px;
-    background: black;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.box9{
     background-color: #4b0082;
 }
-.middle-content .boxes .box10 {
-    width: 12.5%;
-    height: 100px;
-    background: black;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #1e90ff;
-}
 .box10{
-    background-color: blue;
+    background-color: #1e90ff;
 }
 
 .bottom-content {
@@ -279,11 +207,11 @@ footer nav a {
 /*about.html*/
 header{
     width:100%;
-}
+    }
 
 .logo2{
     display:inline-block;
-}
+    }
 
 nav .nav2{
     display:flex;
@@ -292,47 +220,64 @@ nav .nav2{
     margin-top:-20px;
     margin-left:170px;
     padding-bottom:40px;
+    }
 
-}
 .nav2 a{
     text-decoration:none;
     color:black;
-}
+    }
+
+.top-content2{
+    border-bottom:1px dashed black;
+    padding:1rem;
+    }
 
 .all-info{
-    display:flex;
-    justify-content:space-evenly;
-    align-items:center;
-    flex-wrap:wrap;
-    
-    width:100;
-    
-   }
+     display:flex;
+     justify-content:center;
+     align-items:center;
+     flex-wrap:wrap;
+     box-sizing:border-box;
+     width:100%;
+     padding-top:1rem;
+     
+     }
 
-   .all-info img{
-       display:flex;
+.all-info img{
+        display:flex;
         justify-content: space-between;
-       flex-wrap:wrap;
+        flex-wrap:wrap;
+        box-sizing:border-box;
+        width:100%;
+        
+        }
+
+.all-info div a{
+        color:black;
+        text-decoration:none;
+        border:2px solid black;
+        border-radius:0.5rem;
+        padding:8px;
        
-
-   }
-
-.all-info .pp{
-   display:flex;
-    flex-direction:column;
-    justify-content: center;
-    
 }
 
+    .all-info div{
+        border-bottom:1px dashed black;
+        width:46%;
+        margin:1% auto;
+        padding-bottom:1rem;
+        }
+   
+
+   .bottom-content2{
+       margin-top:2rem;
+   }
+
+   .all-info p{
+       margin-bottom:1rem;
+   }
+   
+
+    
 
 
-/*.middle-content .boxes .box1 {
-    width: 12.5%;
-    height: 100px;
-    background: black;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color:#379999;*/
