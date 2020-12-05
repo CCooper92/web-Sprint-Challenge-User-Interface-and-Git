@@ -56,6 +56,30 @@ html, body {
     font-family: 'Roboto', sans-serif;
 }
 
+
+header{
+    width:100%;
+}
+
+.logo{
+    display:inline-block;
+}
+
+nav{
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+    margin-top:-20px;
+    margin-left:170px;
+    padding-bottom:40px;
+
+}
+nav a{
+    text-decoration:none;
+    color:black;
+}
+
+
 h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
@@ -101,7 +125,8 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+
+.middle-content .boxes .box1,.box2,.box3,.box4,.box5,.box6,.box7,.box8,.box9,.box10{
     width: 12.5%;
     height: 100px;
     background: black;
@@ -110,6 +135,36 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color:#379999;
+}
+.box2{
+    background-color:#ffd701;
+}
+
+.box3{
+    background-color:#5f9ea0;
+}
+.box4{
+    background-color: #ff7f50;
+}
+.box5{
+    background-color: #dc143c;
+}
+.box6{
+    background-color: #228b22;
+}
+.box7{
+    background-color: #9932cc;
+}
+
+.box8{
+    background-color: #ff69b4;
+}
+.box9{
+    background-color: #4b0082;
+}
+.box10{
+    background-color: #1e90ff;
 }
 
 .bottom-content {
@@ -138,9 +193,91 @@ footer nav {
     align-items: center;
     padding: 20px 2%;
     font-size: 14px;
+    margin-top:1rem;
 }
 
 footer nav a {
     color: white;
     text-decoration: none;
 }
+
+
+
+
+/*about.html*/
+header{
+    width:100%;
+    }
+
+.logo2{
+    display:inline-block;
+    }
+
+nav .nav2{
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+    margin-top:-20px;
+    margin-left:170px;
+    padding-bottom:40px;
+    }
+
+.nav2 a{
+    text-decoration:none;
+    color:black;
+    }
+
+.top-content2{
+    border-bottom:1px dashed black;
+    padding:1rem;
+    }
+
+.all-info{
+     display:flex;
+     justify-content:center;
+     align-items:center;
+     flex-wrap:wrap;
+     box-sizing:border-box;
+     width:100%;
+     padding-top:1rem;
+     
+     }
+
+.all-info img{
+        display:flex;
+        justify-content: space-between;
+        flex-wrap:wrap;
+        box-sizing:border-box;
+        width:100%;
+        
+        }
+
+.all-info div a{
+        color:black;
+        text-decoration:none;
+        border:2px solid black;
+        border-radius:0.5rem;
+        padding:8px;
+       
+}
+
+    .all-info div{
+        border-bottom:1px dashed black;
+        width:46%;
+        margin:1% auto;
+        padding-bottom:1rem;
+        }
+   
+
+   .bottom-content2{
+       margin-top:2rem;
+   }
+
+   .all-info p{
+       margin-bottom:1rem;
+   }
+   
+
+    
+
+
